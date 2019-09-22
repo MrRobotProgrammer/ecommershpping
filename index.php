@@ -2,13 +2,17 @@
 
 require_once("vendor/autoload.php");
 
+use Ecommerce\DB\Pager;
+
 $app = new \Slim\Slim();
 
 $app->config('debug', true);
 
 $app->get('/', function() {
-    
-	echo "OK";
+
+	$pager = new Pager();
+	$pager->setTpl('index');
+
 
 });
 

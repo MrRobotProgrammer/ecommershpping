@@ -21,12 +21,14 @@
     },
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Ecommerce\\": "vendor/ecommerce/php-classes/src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Ecommerce\\": "vendor/ecommerce/php-classes/src"
         }
     },
     "config": {

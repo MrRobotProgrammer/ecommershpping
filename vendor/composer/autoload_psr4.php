@@ -11,6 +11,7 @@ return array(
     'Tests\\' => array($baseDir . '/tests'),
     'Symfony\\Polyfill\\Ctype\\' => array($vendorDir . '/symfony/polyfill-ctype'),
     'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src/Prophecy'),
+    'Ecommerce\\' => array($vendorDir . '/ecommerce/php-classes/src', $vendorDir . '/ecommerce/php-classes/src'),
     'Doctrine\\Instantiator\\' => array($vendorDir . '/doctrine/instantiator/src/Doctrine/Instantiator'),
     'DeepCopy\\' => array($vendorDir . '/myclabs/deep-copy/src/DeepCopy'),
     'App\\' => array($baseDir . '/src'),

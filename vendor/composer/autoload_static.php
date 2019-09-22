@@ -32,6 +32,10 @@ class ComposerStaticInit9a1f7216b4303e1fbfae4a42898e8afa
         array (
             'Prophecy\\' => 9,
         ),
+        'E' => 
+        array (
+            'Ecommerce\\' => 10,
+        ),
         'D' => 
         array (
             'Doctrine\\Instantiator\\' => 22,
@@ -65,6 +69,11 @@ class ComposerStaticInit9a1f7216b4303e1fbfae4a42898e8afa
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
+        ),
+        'Ecommerce\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ecommerce/php-classes/src',
+            1 => __DIR__ . '/..' . '/ecommerce/php-classes/src',
         ),
         'Doctrine\\Instantiator\\' => 
         array (
